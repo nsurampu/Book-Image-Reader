@@ -7,7 +7,7 @@ This application is for reading books where the pages are in image formats (JPEG
 
 ### Usage Instructions
 <br>
-![Home]("home.png")
+![Home]("https://github.com/nsurampu/Book-Image-Reader/blob/master/home.png")
 <br><br>
 The above is the screenshot which you get when launching the app for the first time. To launch the app, navigate into the repo folder and run the ***home.py*** file. This will launch the app on the localhost, which can be accessed by entering the link ***127.0.0.1:8050*** in any web browser. Once here, all you need to do is select the files/images you wish to view, and wait for them to load into the app. Once loaded, you can navigate one page at a time using the **Continue to NEXT PAGE --->** button. If you wish to jump to a particular page, scroll down and select the page number from the dropdown menu. This will show the selected page below the dropdown as preview. Here on, you can use the next page button to continue reading from the immediate next page.
 <br><br>
