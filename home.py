@@ -11,6 +11,8 @@ from app import app
 
 app.title = 'Book Image Reader'
 
+init_run = True
+
 if Path('page_cache.pickle').is_file():
     current_page = 0
     with open('page_cache.pickle', 'rb') as handle:
@@ -93,14 +95,16 @@ def update_output(list_of_contents, list_of_names, list_of_dates):
     global current_page
     global all_pages
     global page_options
+    global init_run
 
-    if Path('page_cache.pickle').is_file():
+    if Path('page_cache.pickle').is_file() and init_run:
         current_page = 0
         with open('page_cache.pickle', 'rb') as handle:
             all_pages = pickle.load(handle)
             page_options = []
             for key in all_pages:
                 page_options.append({'label': 'Page ' + key, 'value': key})
+            init_run = False
 
             return True, page_options
 
