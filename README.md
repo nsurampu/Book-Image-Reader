@@ -1,7 +1,7 @@
 # Book Image Reader
 A Dash application primarily built for reading books with pages in image format
 <br><br>
-The main motivation that lead to the development of this mini application was the lack of satisfaction that arose from reading books, which happen to be portrait oriented, on a landscape oriented screen (laptop/PC). One solution I found was to mirror the screen on a tablet and change the orientation to portrait, which I found extremely tedious. The current application is aimed at solving this issue.
+The main motivation that lead to the development of this mini application was the lack of satisfaction that arose from reading books, which happen to be portrait oriented, on a landscape oriented screen. One solution I found was to mirror the screen on a tablet and change the orientation to portrait, which I found extremely tedious. The current application is aimed at solving this issue.
 <br><br>
 This application is for reading books where the pages are in image formats (JPEG, PNG, etc.). This is mostly the case with comics with high graphic content. This app can be used to make reading such books easier.
 
