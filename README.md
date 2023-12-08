@@ -1,3 +1,5 @@
+# NOTE: This project will be demised and replaced with a new project project 
+
 # Book Image Reader
 A Dash application primarily built for reading books with pages in image format
 <br><br>
